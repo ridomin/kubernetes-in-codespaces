@@ -3,6 +3,11 @@ GET http://localhost:31080/heartbeat/17 HTTP/1.1
 
 ###
 
+# ridohubproxy service
+GET http://localhost:30081/hub/mm2/started HTTP/1.1
+
+###
+
 # IMDb readyz
 GET http://localhost:30080/readyz HTTP/1.1
 
